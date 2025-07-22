@@ -4,70 +4,76 @@ import { Calendar, MapPin, Award, ExternalLink } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      period: '2018 - Present',
-      role: 'Senior Tax Consultant & Digital Strategist',
-      company: 'Independent Consultant',
-      location: 'Remote / Dubai',
-      description: 'Leading comprehensive business solutions combining tax expertise with digital marketing strategies for international clients.',
+      period: 'Mar-2022 - Oct-2024',
+      role: 'Assistant Manager Accounts & Taxation',
+      company: 'Indus Pharma Group',
+      location: 'Karachi / Pakistan',
+      description: 'Leading comprehensive business solutions combining tax expertise with digital Delivering integrated financial and tax solutions with a strategic focus on compliance, reporting, and value-driven support.',
       achievements: [
-        'Managed 50+ client portfolios across multiple industries',
-        'Implemented AI-powered tax optimization solutions',
-        'Generated $2M+ in tax savings for clients',
-        'Built and scaled social media presence for 30+ brands'
+        'Managed tax planning, compliance, and return filing (Income Tax, Sales Tax, WHT)',
+        'Improved month-end closing and financial reporting accuracy',
+        'Coordinated with SECP, FBR, and external auditors for compliance',
+        'Managed cross-border tax compliance and documentation'
       ],
-      technologies: ['SAP S/4 HANA', 'ChatGPT API', 'Meta Business', 'Google Analytics']
+      technologies: ['SAP B-One', 'ChatGPT API', ]
     },
     {
-      period: '2015 - 2018',
-      role: 'Senior Tax Manager',
-      company: 'IFFCO Group',
-      location: 'Dubai, UAE',
-      description: 'Led digital transformation initiatives and managed corporate tax compliance for one of the largest conglomerates in the Middle East.',
+      period: 'Oct-2020 - Mar-2022',
+      role: 'Assistant Manager Taxation & Compliance',
+      company: 'Horizon Steel (Pvt) Ltd',
+      location: 'Karachi, Pakistan',
+      description: 'Led digital transformation initiatives and managed corporate tax compliance for the organization.',
       achievements: [
-        'Implemented SAP Business One across 15 subsidiaries',
+        'Implemented SAP Business One across the organization',
         'Reduced tax compliance time by 60% through automation',
-        'Led a team of 12 tax professionals',
-        'Designed digital workflows saving $500K annually'
+        // 'Led a team of 12 tax professionals',
+        // 'Designed digital workflows saving $500K annually'
       ],
-      technologies: ['SAP Business One', 'Advanced Excel', 'Power BI', 'SharePoint']
+      technologies: ['SAP Business One', 'Advanced Excel']
     },
     {
-      period: '2012 - 2015',
-      role: 'Tax Consultant',
-      company: 'KPMG',
-      location: 'Dubai, UAE',
-      description: 'Provided tax advisory services to multinational corporations and high-net-worth individuals with focus on international tax planning.',
+      period: 'Jul-2015 - Oct-2020',
+      role: 'Compliance Executive-JM Grade',
+      company: 'IFFCO Pakistan (Pvt) Ltd-Iffco Group U.A.E',
+      location: 'Karachi, Pakistan',
+      description: 'Experienced in tax compliances, SECP filings, legal drafting, and regulatory compliances indepedently and in cordination with consultants.',
       achievements: [
-        'Advised Fortune 500 companies on tax structuring',
-        'Specialized in UAE-India tax treaties and transfer pricing',
-        'Completed 200+ tax compliance projects',
-        'Achieved 98% client satisfaction rating'
+        'Ensured timely tax filings, statutory compliance, and favorable audit outcomes.',
+        'Managed SECP matters including incorporations, filings, and legal documentation.',
+        'Resolved FBR/SECP notices and supported regulatory audits.',
+        'Advised on tax planning, corporate structuring, and legal compliance',
+        'Maintained statutory records and coordinated with legal/tax consultants',
       ],
-      technologies: ['CaseWare', 'CCH Axcess', 'Excel VBA', 'ONESOURCE']
+      technologies: ['SAP S4 Hana', 'Ms. Excel Advance', 'Lotus (ERP)']
     },
     {
-      period: '2010 - 2012',
-      role: 'Junior Tax Associate',
-      company: 'Deloitte',
-      location: 'Mumbai, India',
+      period: 'mar-2013 - Apr-2015',
+      role: 'Tax Assistant',
+      company: 'KPMG Taseer Hadi & Co. Chartered Accountant',
+      location: 'Karachi, Pakistan',
       description: 'Started career in tax consulting with focus on domestic tax compliance and advisory for emerging businesses.',
       achievements: [
-        'Handled 100+ individual and corporate tax returns',
+        'Handled various individual and corporate tax returns of clients',
         'Assisted in complex tax audits and assessments',
         'Developed automated tax calculation templates',
-        'Earned fast-track promotion to senior associate'
+        'Learned and applied tax laws & regulations',
       ],
-      technologies: ['Tally ERP', 'Excel', 'Tax Software', 'GST Systems']
+      technologies: ['efbr','IRIS', 'Excel', 'Tax Software', 'GST Systems']
     }
   ];
 
   const certifications = [
-    { name: 'Certified SAP S/4 HANA Consultant', issuer: 'SAP', year: '2019' },
-    { name: 'Google Analytics Certified', issuer: 'Google', year: '2020' },
-    { name: 'Meta Marketing Science Certification', issuer: 'Meta', year: '2021' },
-    { name: 'AI in Business Certificate', issuer: 'Stanford Online', year: '2022' },
-    { name: 'Chartered Accountant (CA)', issuer: 'ICAI', year: '2013' },
-    { name: 'Adobe Certified Expert (ACE)', issuer: 'Adobe', year: '2020' }
+    { name: 'Certificate in Participation in annual budget workshop/sessions', issuer: 'Softax (Pvt) Limited', year: 'Yearly Session' },
+    { name: 'Certificate in Learning Data Analytics, Financial Modeling, Accounting', issuer: 'LinkedIn Learing', year: 'Ongoing' },
+    { name: 'Certificate in Excel Skills For Business', issuer: 'Macquarie University', year: '2020' },
+    { name: 'Certificate of Completion -Microsoft Excel Data Analysis & Dashboard Reporting', issuer: 'Udemy Online', year: '2020' },
+    { name: 'Certificate of Participation - Sindh Sales Tax On Services ', issuer: 'Lintel Academy ', year: '2019' },
+    { name: 'Certificate of Participation - Advance Salary Taxation & Income Tax Return [e-Filing] ', issuer: 'Softax (Pvt) Limited', year: '2017' },
+    { name: 'Certificate of Participation - E-Filing of Sales Tax Return ', issuer: 'Softax (Pvt) Limited', year: '2017' },
+    { name: 'Certificate in Connect & Communicate', issuer: 'Torque Corp', year: '2016' },
+    { name: 'Certificate of Achievement- Dashboard & Business Intelligence with Excel 2013', issuer: 'Innovative Institute of Management & IT Training', year: '2016' },
+    { name: 'Certificate in Building a Value-Driven Culture', issuer: 'Torque Corp', year: '2015' },
+    { name: 'Certificate in computerized accounting', issuer: 'IQ Concept Pass', year: '2011' },
   ];
 
   return (
@@ -78,7 +84,7 @@ const Experience: React.FC = () => {
             Experience & Certifications
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Over a decade of progressive experience across leading organizations and cutting-edge certifications
+            Over a decade of progressive experience across leading domestic and multinational organizations and cutting-edge certifications
           </p>
         </div>
 
@@ -116,7 +122,7 @@ const Experience: React.FC = () => {
 
                     {/* Achievements */}
                     <div className="mb-4">
-                      <h5 className="font-semibold text-gray-900 dark:text-white mb-2">Key Achievements:</h5>
+                      <h5 className="font-semibold text-gray-900 dark:text-white mb-2">Key Responsibilities:</h5>
                       <ul className="space-y-1">
                         {exp.achievements.map((achievement, achievementIndex) => (
                           <li key={achievementIndex} className="flex items-start text-sm text-gray-600 dark:text-gray-400">

@@ -10,7 +10,7 @@ const About: React.FC = () => {
   };
 
   const achievements = [
-    { icon: Award, title: 'KPMG Taseer Hadi & Co (Ex. Tax Assistant)', desc: 'Tax Assistant at KPMG with expertise in corporate compliance' },
+    { icon: Award, title: 'KPMG Taseer Hadi & Co (Ex. Tax Assistant)', desc: 'Responsible for managing tax compliance of local and international clients' },
     { icon: Award, title: 'IFFCO Pakistan (Pvt) Ltd-IFFCO Group UAE (Ex. Compliance Executive)', desc: 'Responsible for managing tax filings, ensuring corporate & regulatory compliances of the organization'},
     { icon: Award, title: 'Horizon Steel (Pvt) Ltd (Ex. Assistant Manager Accounts & Taxation)', desc: 'Oversees tax compliance and manages financial accounting to ensure accurate reporting and regulatory adherence.'},
     { icon: Award, title: 'Indus Pharma Group (Ex. Assistant Manager Accounts & Taxation)', desc: 'Handle tax compliances, accouting activity and payroll processing' },

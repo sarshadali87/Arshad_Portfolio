@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
   ];
 
   const services = [
-    'Tax Consultation',
-    'SAP Implementation',
-    'Brand Design',
-    'Social Media Marketing',
+    'Tax Services',
+    'Digital Designing Services',
+    'Social Media marketing Services',
+    // 'Social Media Marketing',
     'AI Chatbot Integration',
     'Business Strategy'
   ];
@@ -50,15 +50,15 @@ const Footer: React.FC = () => {
             <div className="space-y-3">
               <div className="flex items-center text-gray-300">
                 <Mail className="w-5 h-5 mr-3 text-blue-400" />
-                <span>syed.arshad.ali@email.com</span>
+                <span>sarshadali2025@gmail.com</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <Phone className="w-5 h-5 mr-3 text-teal-400" />
-                <span>+971 50 123 4567</span>
+                <span>+92 302 2892886</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <MapPin className="w-5 h-5 mr-3 text-orange-400" />
-                <span>Dubai, UAE</span>
+                <span>Karachi, Pakistan</span>
               </div>
             </div>
 
@@ -139,9 +139,9 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center text-gray-400 text-sm">
-              <span>&copy; {currentYear} Syed Arshad Ali. Made with</span>
+              <span>&copy; {currentYear} All right reserved by Syed Arshad Ali</span>
               <Heart className="w-4 h-4 mx-2 text-red-500 fill-current" />
-              <span>in Dubai, UAE</span>
+              <span>Karachi, Pakistan</span>
             </div>
 
             <div className="flex flex-wrap gap-6 text-sm text-gray-400">
@@ -154,8 +154,8 @@ const Footer: React.FC = () => {
           {/* Additional Info */}
           <div className="mt-6 pt-6 border-t border-gray-800 text-center text-sm text-gray-500">
             <p>
-              Professional services available across UAE, India, and internationally. 
-              SAP certified consultant | Adobe certified expert | Google Analytics certified
+              Professional services available online across Globe. 
+              {/* SAP certified consultant | Adobe certified expert | Google Analytics certified */}
             </p>
           </div>
         </div>

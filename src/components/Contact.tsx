@@ -145,7 +145,7 @@ const Contact: React.FC = () => {
                   <div className="text-sm text-gray-600 dark:text-gray-400">Response Time</div>
                 </div>
                 <div className="text-center p-4 bg-teal-50 dark:bg-teal-900/20 rounded-xl">
-                  <div className="text-2xl font-bold text-teal-600 dark:text-teal-400">98%</div>
+                  <div className="text-2xl font-bold text-teal-600 dark:text-teal-400">90%</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Client Satisfaction</div>
                 </div>
                 <div className="text-center p-4 bg-orange-50 dark:bg-orange-900/20 rounded-xl">
@@ -238,7 +238,7 @@ const Contact: React.FC = () => {
                     >
                       <option value="">Select a service</option>
                       <option value="tax-compliance">Tax & Compliance</option>
-                      <option value="digital-design">Digital Design</option>
+                      <option value="digital-design">Digital Designing</option>
                       <option value="social-marketing">Social Media Marketing</option>
                       <option value="ai-chatbot">AI Chatbot Integration</option>
                       {/* <option value="sap-implementation">SAP Implementation</option> */}
