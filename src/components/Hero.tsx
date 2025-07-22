@@ -3,7 +3,7 @@ import { ArrowRight, Download, MessageCircle, Play } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/1234567890', '_blank');
+    window.open('https://wa.me/00923022892886', '_blank');
   };
 
   const handleDownloadCV = () => {
@@ -32,21 +32,20 @@ const Hero: React.FC = () => {
           {/* Left side - Content */}
           <div className="flex-1 text-center lg:text-left max-w-2xl">
             <div className="mb-6">
-              <span className="inline-block px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium mb-4">
+              {/* <span className="inline-block px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium mb-4">
                 Available for Projects
-              </span>
+              </span> */}
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
                 Syed Arshad Ali
               </h1>
               <div className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
                 <span className="bg-gradient-to-r from-blue-600 via-teal-600 to-orange-500 bg-clip-text text-transparent font-semibold">
-                  Tax Expert | Digital Designer | Marketing Strategist | AI Tech
+                  Tax Expert | Digital Designer | Social Media Marketer | AI Chatbot Developer
                 </span>
               </div>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-                Multi-skilled professional with 10+ years of experience in Taxation & Corporate Compliance, 
-                Digital Design, and Social Media Marketing. Former KPMG consultant specializing in 
-                SAP systems and AI-powered business solutions.
+                Multi-skilled professional with 10+ years of experience in Taxation & Corporate Compliances. 
+                Former KPMG tax professional specializing in taxation, corporate compliances. SAP S4 Hana & SAP B1 User and AI Chatbot Developer, Digital Designer, and Social Media Marketer. .
               </p>
             </div>
 
@@ -102,7 +101,7 @@ const Hero: React.FC = () => {
               {/* Profile Image */}
               <div className="absolute inset-12 rounded-full bg-gradient-to-br from-blue-400 via-teal-400 to-orange-400 p-1">
                 <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=500"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR75ovTk34aI8NKGdH7OGug0dUtbBHdEINIw&s"
                   alt="Syed Arshad Ali"
                   className="w-full h-full rounded-full object-cover border-4 border-white dark:border-gray-800"
                 />
