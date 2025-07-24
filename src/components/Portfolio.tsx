@@ -9,63 +9,63 @@ const Portfolio: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: 'Multi-National Tax Restructuring',
+      title: 'Tax Filing & Compliances',
       category: 'Tax Projects',
       image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600',
-      description: 'Complete tax structure optimization for a Fortune 500 company, resulting in 30% tax savings.',
-      technologies: ['SAP S/4 HANA', 'Tax Planning', 'Compliance'],
-      client: 'Confidential MNC',
-      result: '$2M+ Annual Savings'
+      description: 'Complete tax reporting.',
+      technologies: ['Tax Planning', 'Compliance'],
+      // client: 'Confidential MNC',
+      // result: '$2M+ Annual Savings'
     },
     {
       id: 2,
-      title: 'E-commerce Brand Identity',
+      title: 'Business Brand Identity',
       category: 'Design Projects',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
-      description: 'Complete brand identity design for a luxury e-commerce platform including logo, packaging, and digital assets.',
-      technologies: ['Adobe Creative Suite', 'Figma', 'Brand Strategy'],
-      client: 'Luxury Retail Brand',
-      result: '300% Brand Recognition'
+      description: 'Craft unique brand identities that capture your vision, communicate your values, and build lasting impressions across all platforms.',
+      technologies: ['Designing', 'Digital Designing'],
+      // client: 'Luxury Retail Brand',
+      // result: '300% Brand Recognition'
     },
     {
       id: 3,
-      title: 'Social Media Campaign - Tech Startup',
+      title: 'Social Media Marketing',
       category: 'Marketing Campaigns',
       image: 'https://images.pexels.com/photos/267389/pexels-photo-267389.jpeg?auto=compress&cs=tinysrgb&w=600',
-      description: '360-degree social media campaign for a fintech startup, increasing user acquisition by 250%.',
+      description: '360-degree social media campaign for a fintech startup, increasing user acquisition.',
       technologies: ['Meta Ads', 'Google Analytics', 'Content Strategy'],
-      client: 'FinTech Startup',
-      result: '250% User Growth'
+      // client: 'FinTech Startup',
+      // result: '250% User Growth'
     },
-    {
-      id: 4,
-      title: 'SAP Implementation - Manufacturing',
-      category: 'Tax Projects',
-      image: 'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=600',
-      description: 'End-to-end SAP S/4 HANA implementation for manufacturing company with integrated tax modules.',
-      technologies: ['SAP S/4 HANA', 'Process Optimization', 'Training'],
-      client: 'Manufacturing Corp',
-      result: '60% Process Efficiency'
-    },
-    {
-      id: 5,
-      title: 'Restaurant Chain Branding',
-      category: 'Design Projects',
-      image: 'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600',
-      description: 'Visual identity redesign for restaurant chain including menu design, signage, and digital presence.',
-      technologies: ['Brand Design', 'Print Design', 'Digital Assets'],
-      client: 'Restaurant Chain',
-      result: '40% Revenue Increase'
-    },
+    // {
+    //   id: 4,
+    //   title: 'SAP Implementation - Manufacturing',
+    //   category: 'Tax Projects',
+    //   image: 'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=600',
+    //   description: 'End-to-end SAP S/4 HANA implementation for manufacturing company with integrated tax modules.',
+    //   technologies: ['SAP S/4 HANA', 'Process Optimization', 'Training'],
+    //   client: 'Manufacturing Corp',
+    //   result: '60% Process Efficiency'
+    // },
+    // {
+    //   id: 5,
+    //   title: 'Restaurant Chain Branding',
+    //   category: 'Design Projects',
+    //   image: 'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600',
+    //   description: 'Visual identity redesign for restaurant chain including menu design, signage, and digital presence.',
+    //   technologies: ['Brand Design', 'Print Design', 'Digital Assets'],
+    //   client: 'Restaurant Chain',
+    //   result: '40% Revenue Increase'
+    // },
     {
       id: 6,
       title: 'B2B Lead Generation Campaign',
       category: 'Marketing Campaigns',
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: 'LinkedIn and email marketing campaign for B2B software company, generating 500+ qualified leads.',
-      technologies: ['LinkedIn Ads', 'Email Marketing', 'CRM Integration'],
-      client: 'Software Company',
-      result: '500+ Qualified Leads'
+      technologies: ['LinkedIn Ads', 'Email Marketing'],
+      client: '',
+      result: ''
     }
   ];
 
@@ -81,7 +81,7 @@ const Portfolio: React.FC = () => {
             Projects Portfolio
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Explore my work across taxation, design, and marketing with measurable results
+            Explore my work across taxation, digital designing and social media marketing with measurable results.
           </p>
         </div>
 
@@ -160,12 +160,12 @@ const Portfolio: React.FC = () => {
                 <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
                   <div className="flex justify-between items-center text-sm">
                     <div>
-                      <span className="text-gray-500 dark:text-gray-400">Client:</span>
+                      {/* <span className="text-gray-500 dark:text-gray-400">Client:</span> */}
                       <span className="ml-2 font-medium text-gray-900 dark:text-white">{project.client}</span>
                     </div>
                   </div>
                   <div className="mt-2">
-                    <span className="text-gray-500 dark:text-gray-400">Result:</span>
+                    {/* <span className="text-gray-500 dark:text-gray-400">Result:</span> */}
                     <span className="ml-2 font-semibold text-green-600 dark:text-green-400">{project.result}</span>
                   </div>
                 </div>

@@ -6,25 +6,25 @@ const Services: React.FC = () => {
     {
       icon: Calculator,
       title: 'Taxation & Compliance Services',
-      description: 'Expert tax planning, corporate compliance, and regulatory advisory services with deep knowledge of local and international tax laws.',
-      features: ['Tax Return Filing', 'Corporate Compliance', 'GST Advisory', 'International Taxation', 'Tax Planning', 'Audit Support'],
-      price: 'Starting from $500',
+      description: 'Expert tax planning, corporate compliance, and regulatory advisory services with deep knowledge of tax laws.',
+      features: ['Tax Return Filing', 'Corporate Compliance', 'NTN Registration', 'Tax Planning', 'Others'],
+      price: '',
       color: 'from-blue-500 to-blue-600'
     },
     {
       icon: Palette,
-      title: 'Digital Design & Branding',
-      description: 'Creative digital solutions including brand identity, UI/UX design, and visual communication that resonates with your audience.',
-      features: ['Logo Design', 'Brand Identity', 'UI/UX Design', 'Print Design', 'Packaging Design', 'Brand Guidelines'],
-      price: 'Starting from $800',
+      title: 'Digital Designing',
+      description: 'Creative digital solutions including brand identity and visual communication that resonates with your audience.',
+      features: ['Logo Design', 'Flyers', 'Visiting Cards', 'Packaging Design', 'Presentation', 'Posters', 'Social Media Post'],
+      price: '',
       color: 'from-purple-500 to-pink-600'
     },
     {
       icon: TrendingUp,
       title: 'Social Media Marketing & Strategy',
       description: 'Data-driven social media strategies, content creation, and campaign management to boost your online presence and engagement.',
-      features: ['Social Strategy', 'Content Creation', 'Ad Campaigns', 'Analytics', 'Community Management', 'Influencer Marketing'],
-      price: 'Starting from $1200',
+      features: ['Social Strategy', 'Content Creation', 'Ad Campaigns', 'Analytics', 'Community Management'],
+      price: '',
       color: 'from-orange-500 to-red-600'
     },
     {
@@ -32,14 +32,14 @@ const Services: React.FC = () => {
       title: 'AI Chatbot Integration for Businesses',
       description: 'Custom AI chatbot solutions to automate customer service, lead generation, and business processes using cutting-edge AI technology.',
       features: ['Custom Chatbots', 'Lead Generation', 'Customer Support', 'Process Automation', 'AI Training', 'Integration Support'],
-      price: 'Starting from $2000',
+      price: '',
       color: 'from-teal-500 to-green-600'
     }
   ];
 
   const handleContact = (service: string) => {
     const message = `Hi! I'm interested in your ${service}. Can you provide more details?`;
-    window.open(`https://wa.me/1234567890?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/00923022892886?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
