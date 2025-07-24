@@ -3,25 +3,25 @@ import React from 'react';
 const TechStack: React.FC = () => {
   const techCategories = [
     {
-      category: 'Tax & Compliance',
+      category: 'Accounts, Tax & Compliance',
       tools: [
         { name: 'SAP S/4 HANA', logo: '💼' },
         { name: 'SAP Business One', logo: '🏢' },
-        { name: 'CaseWare', logo: '📊' },
-        { name: 'CCH Axcess', logo: '📋' },
-        { name: 'ONESOURCE', logo: '🔍' },
-        { name: 'Tally ERP', logo: '📈' }
+        { name: 'QuickBooks Accounting Software', logo: '📊' },
+        { name: 'Microsoft Excel', logo: '📋' },
+        // { name: 'ONESOURCE', logo: '🔍' },
+        
       ]
     },
     {
       category: 'Design & Creative',
       tools: [
-        { name: 'Adobe Creative Suite', logo: '🎨' },
+        { name: 'Fotor', logo: '🎨' },
+        { name: 'pixlr', logo: '🎨' },
         { name: 'Figma', logo: '🎯' },
-        { name: 'Sketch', logo: '✏️' },
-        { name: 'Canva', logo: '🖌️' },
-        { name: 'InDesign', logo: '📖' },
-        { name: 'After Effects', logo: '🎬' }
+        { name: 'Canva', logo: '🖌️' }
+          
+        
       ]
     },
     {
@@ -30,20 +30,18 @@ const TechStack: React.FC = () => {
         { name: 'Google Analytics', logo: '📊' },
         { name: 'Meta Business', logo: '📱' },
         { name: 'LinkedIn Ads', logo: '💼' },
-        { name: 'Google Ads', logo: '🎯' },
-        { name: 'Mailchimp', logo: '📧' },
-        { name: 'Hootsuite', logo: '📲' }
+        { name: 'Google Ads', logo: '🎯' }
+        
       ]
     },
     {
       category: 'AI & Development',
       tools: [
-        { name: 'ChatGPT API', logo: '🤖' },
         { name: 'Dialogflow', logo: '💬' },
-        { name: 'Python', logo: '🐍' },
-        { name: 'Node.js', logo: '🟢' },
+        // { name: 'Python', logo: '🐍' },
+        { name: 'Kommunicate', logo: '🟢' },
         { name: 'React', logo: '⚛️' },
-        { name: 'TensorFlow', logo: '🧠' }
+        { name: 'Flowise', logo: '🧠' }
       ]
     },
     {
@@ -52,19 +50,19 @@ const TechStack: React.FC = () => {
         { name: 'Microsoft 365', logo: '📎' },
         { name: 'SharePoint', logo: '🔗' },
         { name: 'Power BI', logo: '📊' },
-        { name: 'Slack', logo: '💬' },
-        { name: 'Notion', logo: '📝' },
-        { name: 'Zoom', logo: '📹' }
+        { name: 'Microsoft Office', logo: '💬' },
+        // { name: 'Notion', logo: '📝' },
+        // { name: 'Zoom', logo: '📹' }
       ]
     },
     {
       category: 'Cloud & Infrastructure',
       tools: [
-        { name: 'AWS', logo: '☁️' },
-        { name: 'Azure', logo: '🌐' },
-        { name: 'Google Cloud', logo: '🔵' },
+        // { name: 'AWS', logo: '☁️' },
+        // { name: 'Azure', logo: '🌐' },
+        { name: 'Netlify', logo: '🔵' },
         { name: 'Vercel', logo: '▲' },
-        { name: 'Docker', logo: '🐳' },
+        // { name: 'Docker', logo: '🐳' },
         { name: 'GitHub', logo: '🐱' }
       ]
     }
@@ -120,7 +118,7 @@ const TechStack: React.FC = () => {
             
             <div className="text-center">
               <div className="w-20 h-20 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-lg">90%</span>
+                <span className="text-white font-bold text-lg">70%</span>
               </div>
               <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Design Tools</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">Advanced proficiency in creative software suite</p>
@@ -128,7 +126,7 @@ const TechStack: React.FC = () => {
             
             <div className="text-center">
               <div className="w-20 h-20 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-lg">85%</span>
+                <span className="text-white font-bold text-lg">60%</span>
               </div>
               <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Marketing Platforms</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">Certified expert in major marketing platforms</p>
@@ -136,7 +134,7 @@ const TechStack: React.FC = () => {
             
             <div className="text-center">
               <div className="w-20 h-20 bg-gradient-to-r from-orange-400 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-lg">80%</span>
+                <span className="text-white font-bold text-lg">60%</span>
               </div>
               <h4 className="font-semibold text-gray-900 dark:text-white mb-2">AI & Development</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">Growing expertise in AI and development tools</p>
@@ -155,10 +153,10 @@ const TechStack: React.FC = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <span className="px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm">
-                Currently Learning: Advanced AI Integration
+                Currently Learning: Generative AI & Chatbot
               </span>
               <span className="px-4 py-2 bg-teal-100 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300 rounded-full text-sm">
-                Next: Blockchain for Tax Applications
+                Next: Advance AI Applications
               </span>
             </div>
           </div>
