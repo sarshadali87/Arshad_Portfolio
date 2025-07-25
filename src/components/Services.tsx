@@ -9,7 +9,7 @@ const Services: React.FC = () => {
       description: 'Expert tax planning, corporate compliance, and regulatory advisory services with deep knowledge of tax laws.',
       features: ['Tax Return Filing', 'Corporate Compliance', 'NTN Registration', 'Tax Planning', 'Others'],
       price: '',
-      color: 'from-blue-500 to-blue-600'
+      color: 'from-blue-950 to-blue-600'
     },
     {
       icon: Palette,
@@ -17,7 +17,7 @@ const Services: React.FC = () => {
       description: 'Creative digital solutions including brand identity and visual communication that resonates with your audience.',
       features: ['Logo Design', 'Flyers', 'Visiting Cards', 'Packaging Design', 'Presentation', 'Posters', 'Social Media Post'],
       price: '',
-      color: 'from-purple-500 to-pink-600'
+      color: 'from-purple-950 to-pink-600'
     },
     {
       icon: TrendingUp,
@@ -46,10 +46,10 @@ const Services: React.FC = () => {
     <section id="services" className="py-20 bg-sky-950 dark:bg-gray-800">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-50 dark:text-white mb-4">
             My Services
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg text-orange-50 dark:text-gray-400 max-w-2xl mx-auto">
             Comprehensive solutions tailored to drive your business success across multiple domains
           </p>
         </div>

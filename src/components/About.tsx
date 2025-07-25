@@ -24,10 +24,10 @@ const About: React.FC = () => {
     <section id="about" className="py-20 bg-sky-950 dark:bg-sky-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-100 dark:text-grey mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-50 dark:text-grey mb-4">
             About Me
           </h2>
-          <p className="text-lg text-white-900 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg text-orange-50 dark:text-gray-400 max-w-2xl mx-auto">
             Experienced professional specializing in taxation, corporate compliances, digital designing, and social media marketing—offering integrated solutions for financial accuracy and impactful brand presence.
           </p>
         </div>
@@ -55,7 +55,7 @@ const About: React.FC = () => {
                   <Download className="w-5 h-5" />
                   Download Resume
                 </button>
-                <button className="bg-white dark:bg-gray-700 text-gray-800 dark:text-white border-2 border-gray-300 dark:border-gray-600 px-6 py-3 rounded-xl font-semibold hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-300 flex items-center gap-2">
+                <button className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-teal-700 transition-all duration-300 flex items-center gap-2">
                   <MessageSquare className="w-5 h-5" />
                   Ask AI Assistant
                 </button>

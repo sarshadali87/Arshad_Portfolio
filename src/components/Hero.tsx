@@ -35,10 +35,10 @@ const Hero: React.FC = () => {
               {/* <span className="inline-block px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium mb-4">
                 Available for Projects
               </span> */}
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-950 dark:text-white mb-4 leading-tight">
                 Syed Arshad Ali
               </h1>
-              <div className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
+              <div className="text-xl md:text-3xl text-gray-600 dark:text-gray-300 mb-8">
                 <span className="bg-gradient-to-r from-blue-600 via-teal-600 to-orange-500 bg-clip-text text-transparent font-semibold">
                   Tax Expert | Digital Designer | Social Media Marketer | AI Chatbot Developer
                 </span>

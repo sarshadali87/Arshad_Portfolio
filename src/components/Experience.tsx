@@ -80,17 +80,17 @@ const Experience: React.FC = () => {
     <section id="experience" className="py-20 bg-sky-950 dark:bg-gray-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-50 dark:text-white mb-4">
             Experience & Certifications
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg text-orange-50 dark:text-gray-400 max-w-2xl mx-auto">
             Over a decade of progressive experience across leading domestic and multinational organizations and cutting-edge certifications
           </p>
         </div>
 
         {/* Experience Timeline */}
         <div className="mb-20">
-          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-12 text-center">Professional Journey</h3>
+          <h3 className="text-2xl font-bold text-gray-50 dark:text-white mb-12 text-center">Professional Journey</h3>
           <div className="relative">
             {/* Timeline line */}
             <div className="absolute left-8 md:left-1/2 transform md:-translate-x-px h-full w-0.5 bg-gradient-to-b from-blue-500 to-teal-500"></div>
@@ -153,18 +153,18 @@ const Experience: React.FC = () => {
 
         {/* Certifications Grid */}
         <div>
-          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-12 text-center">Certifications & Credentials</h3>
+          <h3 className="text-2xl font-bold text-gray-50 dark:text-white mb-12 text-center">Certifications & Credentials</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {certifications.map((cert, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100 dark:border-gray-700">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-gradient-to-r from-blue-100 to-teal-100 dark:from-blue-900/30 dark:to-teal-900/30 rounded-lg">
-                    <Award className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+                  <div className="p-3 bg-gradient-to-r from-blue-950 to-teal-400 dark:from-blue-900/30 dark:to-teal-900/30 rounded-lg">
+                    <Award className="w-6 h-6 text-blue-100 dark:text-blue-400" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-semibold text-gray-900 dark:text-white mb-1">{cert.name}</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{cert.issuer}</p>
-                    <p className="text-xs text-blue-600 dark:text-blue-400 font-medium">{cert.year}</p>
+                    <h4 className="font-semibold text-gray-950 dark:text-white mb-1">{cert.name}</h4>
+                    <p className="text-sm text-gray-700 dark:text-gray-400 mb-2">{cert.issuer}</p>
+                    <p className="text-xs text-sky-950 dark:text-blue-400 font-medium">{cert.year}</p>
                   </div>
                   <ExternalLink className="w-4 h-4 text-gray-400 hover:text-blue-500 cursor-pointer transition-colors" />
                 </div>

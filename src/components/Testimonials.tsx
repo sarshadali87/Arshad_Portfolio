@@ -93,10 +93,10 @@ const Testimonials: React.FC = () => {
     <section className="py-20 bg-sky-950 dark:bg-gray-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-50 dark:text-white mb-4">
             Client Testimonials
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg text-orange-50 dark:text-gray-400 max-w-2xl mx-auto">
             Hear what my clients say about working with me and the results we achieved together
           </p>
         </div>
@@ -186,19 +186,19 @@ const Testimonials: React.FC = () => {
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">50+</div>
-            <div className="text-gray-600 dark:text-gray-400">Happy Clients</div>
+            <div className="text-gray-50 dark:text-gray-400">Happy Clients</div>
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-teal-600 dark:text-teal-400 mb-2">98%</div>
-            <div className="text-gray-600 dark:text-gray-400">Satisfaction Rate</div>
+            <div className="text-gray-50 dark:text-gray-400">Satisfaction Rate</div>
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-orange-600 dark:text-orange-400 mb-2">10+</div>
-            <div className="text-gray-600 dark:text-gray-400">Years Experience</div>
+            <div className="text-gray-50 dark:text-gray-400">Years Experience</div>
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-purple-600 dark:text-purple-400 mb-2">24/7</div>
-            <div className="text-gray-600 dark:text-gray-400">Support Available</div>
+            <div className="text-gray-50 dark:text-gray-400">Support Available</div>
           </div>
         </div>
       </div>

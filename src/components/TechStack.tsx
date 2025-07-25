@@ -69,13 +69,13 @@ const TechStack: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 bg-white dark:bg-gray-800">
+    <section className="py-20 bg-sky-950 dark:bg-gray-800">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-50 dark:text-white mb-4">
             Tech Stack & Tools
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg text-orange-50 dark:text-gray-400 max-w-2xl mx-auto">
             Leveraging cutting-edge tools and technologies to deliver exceptional results across all domains
           </p>
         </div>
