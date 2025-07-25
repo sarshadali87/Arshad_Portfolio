@@ -21,13 +21,13 @@ const About: React.FC = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gray-50 dark:bg-gray-900">
+    <section id="about" className="py-20 bg-sky-950 dark:bg-sky-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-100 dark:text-grey mb-4">
             About Me
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-lg text-white-900 dark:text-gray-400 max-w-2xl mx-auto">
             Experienced professional specializing in taxation, corporate compliances, digital designing, and social media marketing—offering integrated solutions for financial accuracy and impactful brand presence.
           </p>
         </div>

@@ -13,11 +13,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-gray-100 dark:bg-gray-800;
+  @apply bg-blue-900 dark:bg-blue-900;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-gray-400 dark:bg-gray-600 rounded-full;
+  @apply bg-gray-100 dark:bg-gray-600 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -31,7 +31,7 @@ html {
 
 /* Grid pattern background */
 .bg-grid-pattern {
-  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-image: radial-gradient(circle, rgba(110, 112, 3, 0.1) 1px, transparent 1px);
   background-size: 20px 20px;
 }
 
@@ -115,7 +115,7 @@ select:focus {
 }
 
 .bg-gradient-custom {
-  @apply bg-gradient-to-br from-blue-50 via-white to-teal-50 dark:from-gray-900 dark:via-gray-800 dark:to-blue-900;
+  @apply bg-gradient-to-br from-blue-50 via-white to-teal-50 dark:from-gray-900 dark:via-gray-200 dark:to-blue-900;
 }
 
 /* Loading animation */
@@ -136,7 +136,7 @@ select:focus {
 
 .hover-lift:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 40px rgba(150, 8, 8, 0.1);
 }
 
 /* Mobile-first responsive utilities */
