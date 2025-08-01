@@ -18,5 +18,27 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="NexaBiz-Solution-AI-Assistant"
+  agent-id="186c2e54-2646-45e4-abf7-fe4f76e253e0"
+  language-code="en"
+></df-messenger>
+
+<style>
+  df-messenger {
+   --df-messenger-bot-message: #08225ae1;
+   --df-messenger-button-titlebar-color: #08225ae1;
+   --df-messenger-chat-background-color: #cbdbf7;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #15255e;
+   --df-messenger-user-message: #9b3d74;
+  }
+</style>
+
+
+
   </body>
 </html>
