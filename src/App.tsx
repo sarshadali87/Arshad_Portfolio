@@ -62,7 +62,7 @@ function App() {
       }
 
       .mck-header {
-        background-color: #030336f1 !important;
+        background-color: #010716ff !important;
         color: white !important;
         font-size: 16px !important;
         font-weight: bold !important;
